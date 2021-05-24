@@ -43,7 +43,7 @@
     NSDateComponents *weekdayComponents =
                         [gregorian components:(NSCalendarUnitDay |
                                                NSCalendarUnitYear | NSCalendarUnitMonth) fromDate:date];
-    if ([weekdayComponents day] <= 23 && [weekdayComponents day] >= 17 && [weekdayComponents year] == 2021 && [weekdayComponents month] == 5){
+    if ([weekdayComponents day] <= 29 && [weekdayComponents day] >= 23 && [weekdayComponents year] == 2021 && [weekdayComponents month] == 5){
         return YES;
     }
     
